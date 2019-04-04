@@ -1,0 +1,24 @@
+leader_traits = {
+	
+	med_fleet_naval_manufacturer = {
+	    random = no
+	    equipment_bonus = {
+	        carrier = {
+	            carrier_size = 0.15 armor_value = 0.2
+	            naval_speed = 0.1 naval_range = -0.35
+	        }
+	        capital_ship = {
+	            armor_value = 0.2 hg_attack = 0.1
+	            naval_speed = 0.1 naval_range = -0.35
+	        }
+	        screen_ship = {
+	            lg_attack = 0.1 naval_speed = 0.2
+	            naval_range = -0.25
+	        }
+	        submarine = {
+	            torpedo_attack = 0.1 naval_speed = 0.1
+	            naval_range = -0.25
+	        }
+	    }
+	}
+}
